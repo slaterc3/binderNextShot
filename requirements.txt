@@ -1,0 +1,8 @@
+pandas
+matplotlib
+scikit-learn
+voila
+seaborn
+nltk
+wordcloud
+ipywidgets
