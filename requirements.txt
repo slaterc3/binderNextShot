@@ -8,4 +8,4 @@ wordcloud
 ipywidgets
 textblob
 sklearn
-matplotlib.pyplot
+
