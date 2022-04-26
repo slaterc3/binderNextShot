@@ -6,3 +6,6 @@ seaborn
 nltk
 wordcloud
 ipywidgets
+textblob
+sklearn
+matplotlib.pyplot
