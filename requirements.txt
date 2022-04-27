@@ -8,4 +8,5 @@ wordcloud
 ipywidgets
 textblob
 sklearn
+bokeh-app
 
