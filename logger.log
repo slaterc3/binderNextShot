@@ -1,0 +1,814 @@
+INFO:root:print me
+INFO:root:print me
+ERROR:root:Error occurred
+2022-04-27 20:59:17,808 - root - ERROR - Error occurred
+ERROR:root:The detailed error message -
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-7-386290ef8051>", line 1, in <module>
+    logging.exception("The detailed error message -", stack_info=True)
+2022-04-27 21:00:53,934 - root - ERROR - The detailed error message -
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-7-386290ef8051>", line 1, in <module>
+    logging.exception("The detailed error message -", stack_info=True)
+ERROR:root:The detailed error message -
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-9-386290ef8051>", line 1, in <module>
+    logging.exception("The detailed error message -", stack_info=True)
+2022-04-27 21:01:40,492 - root - ERROR - The detailed error message -
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-9-386290ef8051>", line 1, in <module>
+    logging.exception("The detailed error message -", stack_info=True)
+ERROR:root:The detailed error message -
+NoneType: None
+2022-04-27 21:01:47,431 - root - ERROR - The detailed error message -
+NoneType: None
+ERROR:root:error message -
+NoneType: None
+2022-04-27 21:03:31,924 - root - ERROR - error message -
+NoneType: None
+ERROR:root:Error occurred
+2022-04-27 21:05:11,523 - root - ERROR - Error occurred
+2022-04-27 21:05:11,523 - Error occurred
+ERROR:root:
+2022-04-27 21:05:28,759 - root - ERROR - 
+2022-04-27 21:05:28,759 - 
+2022-04-27 21:05:28,759 - 
+2022-04-27 21:05:28,759 - 
+ERROR:root:
+2022-04-27 21:06:33,034 - root - ERROR - 
+2022-04-27 21:06:33,034 - 
+2022-04-27 21:06:33,034 - 
+2022-04-27 21:06:33,034 - 
+2022-04-27 21:06:33,034 -  - error occurred
+ERROR:root:
+2022-04-27 21:06:49,405 - root - ERROR - 
+2022-04-27 21:06:49,405 - 
+2022-04-27 21:06:49,405 - 
+2022-04-27 21:06:49,405 - 
+2022-04-27 21:06:49,405 -  - error occurred
+2022-04-27 21:06:49,405 -  - error occurred
+ERROR:root:error message -
+NoneType: None
+2022-04-27 21:06:50,868 - root - ERROR - error message -
+NoneType: None
+2022-04-27 21:06:50,868 - error message -
+NoneType: None
+2022-04-27 21:06:50,868 - error message -
+NoneType: None
+2022-04-27 21:06:50,868 - error message -
+NoneType: None
+2022-04-27 21:06:50,868 - error message - - error occurred
+NoneType: None
+2022-04-27 21:06:50,868 - error message - - error occurred
+NoneType: None
+2022-04-27 21:08:10,066 -  - error occurred
+2022-04-27 21:08:20,886 -  - error occurred
+2022-04-27 21:08:20,886 - 
+2022-04-27 21:11:53,505 -  - error occurred
+2022-04-27 21:11:53,505 - 
+2022-04-27 21:11:53,505 -  - logger
+2022-04-27 21:12:05,466 -  - error occurred
+2022-04-27 21:12:05,466 - 
+2022-04-27 21:12:05,466 -  - logger
+2022-04-27 21:12:05,466 -  - logger.log file
+2022-04-27 21:12:16,464 -  - error occurred
+2022-04-27 21:12:16,464 - 
+2022-04-27 21:12:16,464 -  - logger
+2022-04-27 21:12:16,464 -  - logger.log file
+2022-04-27 21:12:16,464 -  - writing to logger.log file
+2022-04-27 21:14:56,022 - error message - - error occurred
+NoneType: None
+2022-04-27 21:14:56,022 - error message -
+NoneType: None
+2022-04-27 21:14:56,022 - error message - - logger
+NoneType: None
+2022-04-27 21:14:56,022 - error message - - logger.log file
+NoneType: None
+2022-04-27 21:14:56,022 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:14:56,022 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:14:56,040 - Detailed error message - - error occurred
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,040 - Detailed error message -
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,040 - Detailed error message - - logger
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,040 - Detailed error message - - logger.log file
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,040 - Detailed error message - - writing to logger.log file
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,040 - Detailed error message - - writing to logger.log file
+NoneType: None
+Stack (most recent call last):
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\slate\anaconda33\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel_launcher.py", line 16, in <module>
+    app.launch_new_instance()
+  File "C:\Users\slate\anaconda33\lib\site-packages\traitlets\config\application.py", line 845, in launch_instance
+    app.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelapp.py", line 612, in start
+    self.io_loop.start()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\platform\asyncio.py", line 199, in start
+    self.asyncio_loop.run_forever()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 570, in run_forever
+    self._run_once()
+  File "C:\Users\slate\anaconda33\lib\asyncio\base_events.py", line 1859, in _run_once
+    handle._run()
+  File "C:\Users\slate\anaconda33\lib\asyncio\events.py", line 81, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 688, in <lambda>
+    lambda f: self._run_callback(functools.partial(callback, future))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\ioloop.py", line 741, in _run_callback
+    ret = callback()
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 814, in inner
+    self.ctx_run(self.run)
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 775, in run
+    yielded = self.gen.send(value)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 365, in process_one
+    yield gen.maybe_future(dispatch(*args))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 268, in dispatch_shell
+    yield gen.maybe_future(handler(stream, idents, msg))
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\kernelbase.py", line 543, in execute_request
+    self.do_execute(
+  File "C:\Users\slate\anaconda33\lib\site-packages\tornado\gen.py", line 234, in wrapper
+    yielded = ctx_run(next, result)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\ipkernel.py", line 306, in do_execute
+    res = shell.run_cell(code, store_history=store_history, silent=silent)
+  File "C:\Users\slate\anaconda33\lib\site-packages\ipykernel\zmqshell.py", line 536, in run_cell
+    return super(ZMQInteractiveShell, self).run_cell(*args, **kwargs)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2894, in run_cell
+    result = self._run_cell(
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 2940, in _run_cell
+    return runner(coro)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\async_helpers.py", line 68, in _pseudo_sync_runner
+    coro.send(None)
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3165, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3357, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "C:\Users\slate\anaconda33\lib\site-packages\IPython\core\interactiveshell.py", line 3437, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-257-911b8c168e52>", line 11, in <module>
+    logging.exception("Detailed error message -", stack_info=True)
+2022-04-27 21:14:56,046 -  - error occurred
+2022-04-27 21:14:56,046 - 
+2022-04-27 21:14:56,046 -  - logger
+2022-04-27 21:14:56,046 -  - logger.log file
+2022-04-27 21:14:56,046 -  - writing to logger.log file
+2022-04-27 21:14:56,046 -  - writing to logger.log file
+2022-04-27 21:26:03,798 - error message - - error occurred
+NoneType: None
+2022-04-27 21:26:03,798 - error message -
+NoneType: None
+2022-04-27 21:26:03,798 - error message - - logger
+NoneType: None
+2022-04-27 21:26:03,798 - error message - - logger.log file
+NoneType: None
+2022-04-27 21:26:03,798 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:03,798 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:03,798 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:03,802 - writing to logger.log - error occurred
+2022-04-27 21:26:03,802 - writing to logger.log
+2022-04-27 21:26:03,802 - writing to logger.log - logger
+2022-04-27 21:26:03,802 - writing to logger.log - logger.log file
+2022-04-27 21:26:03,802 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:03,802 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:03,802 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:23,238 - error message - - error occurred
+NoneType: None
+2022-04-27 21:26:23,238 - error message -
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - logger
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - logger.log file
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:23,238 - error message - - writing to logger.log file
+NoneType: None
+2022-04-27 21:26:23,244 - writing to logger.log - error occurred
+2022-04-27 21:26:23,244 - writing to logger.log
+2022-04-27 21:26:23,244 - writing to logger.log - logger
+2022-04-27 21:26:23,244 - writing to logger.log - logger.log file
+2022-04-27 21:26:23,244 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:23,244 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:23,244 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:23,244 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - error occurred
+2022-04-27 21:26:42,250 - writing to logger.log
+2022-04-27 21:26:42,250 - writing to logger.log - logger
+2022-04-27 21:26:42,250 - writing to logger.log - logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - writing to logger.log file
+2022-04-27 21:26:42,250 - writing to logger.log - writing to logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - error occurred
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - logger
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:47,935 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - error occurred
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - logger
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:33:53,830 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - error occurred
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:00,893 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - error occurred
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - logger
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:09,460 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - error occurred
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:16,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - error occurred
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:25,059 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - error occurred
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:37,553 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - error occurred
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - logger
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:34:59,290 - Logging in at %(asctime)s - writing to logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - error occurred
+2022-04-27 21:49:05,218 - Logging to logger.log
+2022-04-27 21:49:05,218 - Logging to logger.log - logger
+2022-04-27 21:49:05,218 - Logging to logger.log - logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - writing to logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - writing to logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - writing to logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - writing to logger.log file
+2022-04-27 21:49:05,218 - Logging to logger.log - writing to logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - error occurred
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
+2022-04-27 21:49:30,009 - Loaded backend module://ipykernel.pylab.backend_inline version unknown. - writing to logger.log file
